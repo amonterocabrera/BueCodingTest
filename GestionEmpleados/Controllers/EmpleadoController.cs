@@ -64,7 +64,11 @@ namespace GestionEmpleados.Controllers
             }
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="empleado"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Put([FromBody] Empleados empleado)
         {
